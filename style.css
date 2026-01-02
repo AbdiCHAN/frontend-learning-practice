@@ -1,13 +1,42 @@
 /* TODO 7: Change how the whole page looks */
 body {
+    background-color:goldenrod;
+    background-image: url(frontend.png.png);
+    background-repeat: no-repeat;
+    background-blend-mode:hard-light;
+    background-size:500px;
+    background-position: center top 380px;
+background-position-x: center;
+background-position-y: 380px;
 
-}
 /* TODO 8: Change how the heading looks */
-h1 {
+h1{
+    color: black;
+    text-underline-position:above;
+    text-decoration:solid underline blue;
+    text-wrap: pretty;
+   text-align: center;
+   font-size: 40px;
+   text-transform: uppercase;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* TODO 9: Change how the button looks */
+button 
+{
+    background-color: blue;
+    color:white;
+    font-size: 35px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: solid underline red;
+    text-decoration-thickness:5px;
+    display: inline-block;
+    margin : 20px 10px;
+    cursor:pointer;
+  border-radius: 90px;
 
 }
-/* TODO 9: Change how the button looks */
-
 /*
 Hints:
 - Colors exist
